@@ -8,9 +8,9 @@ import os
 import sys
 import telegram
 
-referrer = input("请输入WARP应用内的设备ID：67171d41-a8bf-11ec-8bc1-fa74dd27850e")
-chat_id = input("请输入你的Telegram ID（可在 @userinfobot 查看）：5240683234")
-tg_bot_token = input("请输入Telegram bot API Token （可在 @botfather 获取）：5126492063:AAFjntJeshiYUXq6hoW9QxP9s1jhY71OO90")
+referrer = input("请输入WARP应用内的设备ID：")
+chat_id = input("请输入你的Telegram ID（可在 @userinfobot 查看）：")
+tg_bot_token = input("请输入Telegram bot API Token （可在 @botfather 获取）：")
 
 bot = telegram.Bot(token=tg_bot_token)
 
